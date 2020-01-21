@@ -17,7 +17,7 @@ end
 # end
 
 def find_max_value(array) #Check EVERY integer in array, return HIGHEST value
-  max_value = 0
+  max_value = array[0]
   array.length.times do |index|
     if array[index] > max_value 
       max_value = array[index]
@@ -28,7 +28,7 @@ end
 
 
 def find_min_value(array) #Check every integer in array, return LOWEST value
-min_value = 0
+min_value = array[0]
   array.length.times do |index|
     if array[index] < min_value
       min_value = array[index]
