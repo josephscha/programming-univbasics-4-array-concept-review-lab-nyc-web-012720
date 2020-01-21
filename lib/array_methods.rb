@@ -1,11 +1,12 @@
 def find_element_index(array, value_to_find)
-  # Add your solution here
+  #Return index of value, otherwise return nil
+  
 end
 
 def find_max_value(array)
-  # Add your solution here
+  #Check every integer in array, return HIGHEST value
 end
 
 def find_min_value(array)
-  # Add your solution here
+  #Check every integer in array, return LOWEST value
 end
