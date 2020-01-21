@@ -19,7 +19,7 @@ end
 def find_max_value(array) #Check EVERY integer in array, return HIGHEST value
   max_value = 0
   array.length.times do |index|
-    if array
+    if array[index] = 
   end 
 
 end
