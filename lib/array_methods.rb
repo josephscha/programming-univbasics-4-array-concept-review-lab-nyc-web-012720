@@ -8,6 +8,7 @@ end
 
 def find_max_value(array)
   #Check every integer in array, return HIGHEST value
+  
 end
 
 def find_min_value(array)
