@@ -30,7 +30,7 @@ end
 def find_min_value(array) #Check every integer in array, return LOWEST value
 min_value = 0
   array.length.times do |index|
-    if array[index] > min_value
+    if array[index] < min_value
       min_value = array[index]
     end
   end 
