@@ -12,6 +12,7 @@ def find_max_value(array) #Check every integer in array, return HIGHEST value
     if array[count] = array.max
       return array[count]
       count += 1
+    end
   end
 end
 
