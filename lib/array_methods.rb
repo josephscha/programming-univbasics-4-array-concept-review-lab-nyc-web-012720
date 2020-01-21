@@ -18,8 +18,8 @@ end
 
 def find_max_value(array) #Check EVERY integer in array, return HIGHEST value
   count = 0
-  while count < array.length do 
-    
+  array[count] = max_value
+  
   end 
 
 end
