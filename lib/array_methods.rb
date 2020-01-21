@@ -17,9 +17,7 @@ end
 # end
 
 def find_max_value(array) #Check EVERY integer in array, return HIGHEST value
-  count = 0
-  array[count] = max_value
-  
+  max_value = 
   end 
 
 end
