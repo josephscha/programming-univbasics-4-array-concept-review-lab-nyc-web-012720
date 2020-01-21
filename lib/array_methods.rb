@@ -21,6 +21,7 @@ def find_max_value(array) #Check EVERY integer in array, return HIGHEST value
   array.length.times do |index|
     if array[index] > max_value 
       max_value = array[index]
+    end
   end 
 max_value
 end
