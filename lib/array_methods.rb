@@ -10,7 +10,7 @@ def find_max_value(array) #Check every integer in array, return HIGHEST value
   count = 0 
   while count < array.length do
     if array[count] < array.max 
-      return false 
+      count += 1
     else array[count] = array.max
       return array[count]
     end 
