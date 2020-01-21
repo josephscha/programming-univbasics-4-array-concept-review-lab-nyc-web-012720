@@ -22,7 +22,7 @@ def find_max_value(array) #Check EVERY integer in array, return HIGHEST value
     if array[index] > max_value 
       max_value = array[index]
   end 
-max_
+max_value
 end
 
 
