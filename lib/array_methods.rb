@@ -13,6 +13,7 @@ def find_max_value(array) #Check every integer in array, return HIGHEST value
       return false 
     else array[count] = array.max
       return array[count]
+    end 
   end
 end
 
