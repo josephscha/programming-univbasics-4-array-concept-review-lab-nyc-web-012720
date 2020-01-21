@@ -26,6 +26,15 @@ def find_max_value(array) #Check EVERY integer in array, return HIGHEST value
 max_value
 end
 
+#def find_min_value(array)
+#   count = 0 
+#   while count < array.length do
+#     if array[count] = array.min
+#       return array[count]
+#       count += 1
+#     end
+#   end
+# end
 
 def find_min_value(array) #Check every integer in array, return LOWEST value
 min_value = array[0]
