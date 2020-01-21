@@ -6,8 +6,8 @@ def find_element_index(array, value_to_find)
   end 
 end 
 
-def find_max_value(array)
-  #Check every integer in array, return HIGHEST value
+def find_max_value(array)#Check every integer in array, return HIGHEST value
+  
   count = 0 
   
 end
