@@ -3,8 +3,8 @@ def find_element_index(array, value_to_find)
   if array.include?(value_to_find) == true 
     return array.index(value_to_find)
   else return nil 
-  end 
-end 
+  end
+end
 
 def find_max_value(array) #Check every integer in array, return HIGHEST value
   count = 0 
